@@ -1,5 +1,6 @@
 require 'rails_helper'
 
+
 RSpec.describe "Apartments", type: :request do
   describe "GET /index" do
     it "gets a list of apartments" do
@@ -23,3 +24,4 @@ RSpec.describe "Apartments", type: :request do
     end
   end
 end
+
