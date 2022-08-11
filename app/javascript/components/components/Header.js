@@ -31,6 +31,12 @@ class Header extends Component {
               <a href={new_user_route} className="nav-link">Sign Up</a>
             </NavItem>
           }
+          {logged_in &&
+            <NavItem>
+              <a href='/mylistings' className="nav-link">My Listings</a>
+            </NavItem>
+          }
+
         </Nav>
       </>
     )

@@ -23,7 +23,7 @@ apartments1 = [
         bedrooms: 1,
         bathrooms: 1,
         pets: 'no',
-        image: 'image'
+        image: 'https://images1.apartments.com/i2/MZU-cMLUjXys9npgNzPki9CBzzMaMRo624fjUaE2qSw/117/alta-southern-highlands-las-vegas-nv-building-photo.jpg'
     },
     {
         street: '4302 Palm Ave',
@@ -35,7 +35,7 @@ apartments1 = [
         bedrooms: 1,
         bathrooms: 1,
         pets: 'no',
-        image: 'image'
+        image: 'https://rentpath-res.cloudinary.com/$img_current/t_3x2_jpg_xl/3dad66237f7a0110c6417e2e064468f6'
     }
 ]
 
