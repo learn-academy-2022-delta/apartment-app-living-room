@@ -15,12 +15,13 @@ import {
 } from 'react-router-dom'
 
 class App extends Component {
-  constructor (props){
-    super (props)
+  constructor(props) {
+    super(props)
     this.state = {
       apartments: []
     }
   }
+
   componentDidMount() {
     this.readApartment()
   }
@@ -43,10 +44,11 @@ class App extends Component {
     return (
       
         <Router>
-          <Header {...this.props} />
+          <Header />
           <Switch>
             <Route exact path="/" component={Home} />
             <Route path="/apartmentindex" component={ApartmentIndex} />
+            <Route path="/apartmentindex" render={(props) => <ApartmentIndex {...props} apartments={this.state.apartments}/>} />
             <Route path="/apartmentshow" component={ApartmentShow} />
             <Route path="/apartmentnew" component={ApartmentNew} />
             <Route path="/apartmentedit" component={ApartmentEdit} />
@@ -57,9 +59,6 @@ class App extends Component {
             <Route component={NotFound}/>
           </Switch>
         </Router>
-        
-        
-  
     )
   }
 }

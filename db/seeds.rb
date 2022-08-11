@@ -50,7 +50,7 @@ apartments2 = [
         bedrooms: 2,
         bathrooms: 2,
         pets: 'yes',
-        image: 'image'
+        image: 'https://images.unsplash.com/photo-1545324418-cc1a3fa10c00?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8Nnx8YXBhcnRtZW50fGVufDB8fDB8fA%3D%3D&auto=format&fit=crop&w=800&q=60'
     }
 ]
 
