@@ -54,12 +54,16 @@ export default class Home extends Component {
         <Nav>
           {logged_in && (
             <NavItem>
-              <button>My Listings</button>
+              <a href="/mylistings" className="nav-link">
+                My Listings
+              </a>
             </NavItem>
           )}
           {logged_in && (
             <NavItem>
-              <button>View Listings</button>
+              <a href="/viewlistings" className="nav-link">
+                View Listings
+              </a>
             </NavItem>
           )}
         </Nav>

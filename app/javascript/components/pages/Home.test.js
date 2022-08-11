@@ -18,7 +18,7 @@ describe("When Home renders", () => {
     const home = shallow(<Home />);
     const homeHeading = home.find("h1");
     console.log("HOME", homeHeading.debug());
-    expect(homeHeading.text()).toEqual("This Should Fail");
+    expect(homeHeading.text()).toEqual("Welcome");
   });
 });
 
@@ -26,7 +26,9 @@ it("displays text", () => {
   const home = shallow(<Home />);
   const homeHeading = home.find("p");
   console.log("HOME", homeHeading.debug());
-  expect(homeHeading.length).toEqual(1);
+  expect(homeHeading.text).toEqual(
+    "Discover your new home search our available apartment listings.You'll find your next home here!"
+  );
 });
 
 it("displays two buttons", () => {
@@ -43,7 +45,7 @@ describe("when logged in home page renders", () => {
     const home = shallow(<Home />);
     const loggedInHeading = home.find("h1");
     console.log("HOME", loggedInHeading.debug());
-    expect(loggedInHeading.text()).toEqual("This Should Fail");
+    expect(loggedInHeading.text()).toEqual("Welcome User");
   });
 });
 
@@ -51,12 +53,14 @@ it("displays text", () => {
   const home = shallow(<Home />);
   const loggedInHeading = home.find("p");
   console.log("HOME", loggedInHeading.debug());
-  expect(loggedInHeading.text()).toEqual("This Should Fail");
+  expect(loggedInHeading.text()).toEqual(
+    "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Mi quishendrerit dolor magna Aliquet eget sit amet tellus cras. Tincidunt tortor aliquam nulla facilisi cras fermentum odio eu."
+  );
 });
 
 it("displays two buttons", () => {
   const home = shallow(<Home />);
-  const loggedInHeading = home.find("button");
+  const loggedInHeading = home.find("a");
   console.log("HOME", loggedInHeading.debug());
-  expect(loggedInHeading.text()).toEqual("This Should Fail");
+  expect(loggedInHeading.length()).toEqual(2);
 });
