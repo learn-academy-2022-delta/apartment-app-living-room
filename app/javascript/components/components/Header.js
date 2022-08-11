@@ -12,6 +12,7 @@ class Header extends Component {
     } = this.props;
     console.log("logged_in:", logged_in);
     console.log("current_user:", current_user);
+
     return (
       <>
         <h1>Inflation Apartments</h1>
@@ -61,14 +62,11 @@ class Header extends Component {
             </NavItem>
           )}
 
-          {/* My apartments link for logged in user */}
-          {logged_in && (
+          {logged_in &&
             <NavItem>
-              <a href="/apartmentindex" className="nav-link">
-                My Apartments
-              </a>
+              <a href='/mylistings' className="nav-link">My Listings</a>
             </NavItem>
-          )}
+          }
 
           {/* New Apartment link for logged in user */}
           {logged_in && (
