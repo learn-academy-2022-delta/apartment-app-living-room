@@ -23,7 +23,7 @@ apartments1 = [
         bedrooms: 1,
         bathrooms: 1,
         pets: 'no',
-        image: 'image'
+        image: 'https://images.unsplash.com/photo-1502672260266-1c1ef2d93688?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1380&q=80'
     },
     {
         street: '4302 Palm Ave',
@@ -35,7 +35,7 @@ apartments1 = [
         bedrooms: 1,
         bathrooms: 1,
         pets: 'no',
-        image: 'image'
+        image: 'https://images.unsplash.com/photo-1515263487990-61b07816b324?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8Mnx8YXBhcnRtZW50fGVufDB8fDB8fA%3D%3D&auto=format&fit=crop&w=800&q=60'
     }
 ]
 
@@ -50,7 +50,7 @@ apartments2 = [
         bedrooms: 2,
         bathrooms: 2,
         pets: 'yes',
-        image: 'image'
+        image: 'https://images.unsplash.com/photo-1545324418-cc1a3fa10c00?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8Nnx8YXBhcnRtZW50fGVufDB8fDB8fA%3D%3D&auto=format&fit=crop&w=800&q=60'
     }
 ]
 
