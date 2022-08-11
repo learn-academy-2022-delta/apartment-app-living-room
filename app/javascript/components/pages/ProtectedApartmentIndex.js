@@ -4,7 +4,6 @@ import { Row, Card, CardImg, CardBody, CardTitle, CardSubtitle, Button } from 'r
 
 class ProtectedApartmentIndex extends Component {
   render() {
-    console.log(this.props.apartments)
     const {
         logged_in,
         current_user,
