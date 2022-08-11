@@ -15,7 +15,7 @@ class ProtectedApartmentIndex extends Component {
 
       return (
         <>
-      <h3>ProtectedApartmentIndex</h3>
+      <h3>My Listings</h3>
       <div className='myListings'>
       <Row sm="3">
         {this.props.apartments && this.props.apartments.map(apartment => {
