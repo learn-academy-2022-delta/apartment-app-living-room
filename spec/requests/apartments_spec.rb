@@ -1,10 +1,4 @@
 require 'rails_helper'
-<<<<<<< HEAD
-
-=======
-<<<<<<< HEAD
-=======
->>>>>>> cf5e38b (unprotected index update)
 
 RSpec.describe "Apartments", type: :request do
   describe "GET /index" do
@@ -29,8 +23,4 @@ RSpec.describe "Apartments", type: :request do
     end
   end
 end
-<<<<<<< HEAD
 
-=======
->>>>>>> e091c2d (unprotected index updated)
->>>>>>> cf5e38b (unprotected index update)

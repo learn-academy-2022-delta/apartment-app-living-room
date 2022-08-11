@@ -25,8 +25,8 @@ class App extends Component {
     this.getApartments()
   }
 
-  getApartments = async () => {
-    fetch('http://localhost:3000/apartments')
+  getApartments = () => {
+    fetch('/apartments')
     .then(response => response.json())
     .then(payload => this.setState({apartments}))
     .catch(errors => console.log(error))
